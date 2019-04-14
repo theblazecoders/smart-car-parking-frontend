@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/theblazecoders/smart-car-parking-frontend/issues"
   },
-  "homepage": "https://theblazecoders.github.com/smart-car-parking",
+  "homepage": "https://theblazecoders.github.io/smart-car-parking",
   "dependencies": {
     "jquery": "^3.4.0",
     "materialize-css": "^1.0.0",
