@@ -19,7 +19,7 @@
   "dependencies": {
     "jquery": "^3.4.0",
     "materialize-css": "^1.0.0",
-    "smart-car-parking": "github:theblazecoders/smart-car-parking#semver:^1.0.0"
+    "smart-car-parking": "github:theblazecoders/smart-car-parking#semver:^0.0.1"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
