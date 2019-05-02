@@ -17,7 +17,7 @@
   },
   "homepage": "https://theblazecoders.github.io/smart-car-parking",
   "dependencies": {
-    "jquery": "^3.4.0",
+    "jquery": "^3.4.1",
     "materialize-css": "^1.0.0",
     "smart-car-parking": "github:theblazecoders/smart-car-parking#semver:^0.0.1"
   },
