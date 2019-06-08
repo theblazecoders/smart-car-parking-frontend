@@ -3,6 +3,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-css-import');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-browser-sync');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -34,10 +35,20 @@ module.exports = function(grunt) {
           dest: 'dist/css/ui.min.css',
         }]
       }
+    },
+
+    browserSync: {
+      dev: {
+        options: {
+          watchTask: true,
+          server: './'
+        }
+      }
     }
   });
 
   grunt.registerTask('default', ['browserify', 'css_import']);
   grunt.registerTask('build', ['browserify', 'uglify', 'css_import', 'cssmin']);
+  grunt.registerTask('serve', ['build', 'browserSync']);
 
 };
